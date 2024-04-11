@@ -1,0 +1,2 @@
+emoji = ('😎')
+print(emoji)

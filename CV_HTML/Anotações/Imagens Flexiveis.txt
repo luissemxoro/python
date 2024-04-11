@@ -1,0 +1,21 @@
+Imagens Flexiveis
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+   
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width:1030px )" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="Imagens/foto-g.jpg" alt="Imagem Flexível">
+    </picture>
+    
+</body>
+</html>
